@@ -77,3 +77,12 @@ body{
     height: 36px;
     padding: 0px;
 }
+.menu_list{
+  height:120px;
+  text-align: center;
+  padding-top: 20px !important;
+  border:1px solid lightgrey;
+}
+.bac_img{
+  background-image: url("asset/image/bac2.png");
+}
