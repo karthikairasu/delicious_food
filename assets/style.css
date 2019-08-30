@@ -1,0 +1,79 @@
+    
+a:active {
+  text-decoration:none;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.f-ubundu {
+    font-family: 'Ubuntu', sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999 !important;
+  top: 0;
+  left: 0;
+  background-color: #B28707;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 65px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .side-mu .nav-item a:hover {
+  color: #e93a3a;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.side-mu .nav-item .nav-link{
+    color: black;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.side-ft{
+    bottom: 0px;
+    position: absolute;
+    width:100%;
+    border: 1px solid white;
+}
+.crd_h{
+    min-height: 100vh;
+}
+.bg-gold{
+    background-color: #B28707;
+}
+.text-gold{
+    color: #B28707;
+}
+.hajj_log {
+    border: 1px solid #0c4522;  
+}
+.text-33{
+    font-size: 33px;
+}
+.location{
+  background-color: white;
+    height: 36px;
+    padding: 0px;
+}
