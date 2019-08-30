@@ -64,7 +64,33 @@
 
 <div class="container-fluid mt-5">
   <div class="row">
-     
+     <div class="col-6 col-sm-6 mt-4 px-1">
+       <input type="text" class="form-control" placeholder="Select Date">
+     </div>
+     <div class="col-6 col-sm-6 mt-4 px-1">
+       <input type="text" class="form-control" placeholder="Select Time">
+     </div>
+  
+  <div class="col-12 col-sm-12 mt-4 px-3">
+       <select class="form-control" >
+         <option value="">Choose lounge</option>
+         <option value="lounge1">Lounge 1</option>
+         <option value="lounge2">Lounge 2</option>
+       </select>
+     </div>
+     <div class="col-6 col-sm-6 mt-4 px-1">
+       <label><b>Select People</b></label>
+       <form id='myform' method='POST' action='#'>
+          <input type='button' value='-' class='qtyminus' field='quantity' />
+          <input type='text' name='quantity' value='0' class='qty' />
+          <input type='button' value='+' class='qtyplus' field='quantity' />
+      </form>
+     </div>
+     <div class="col-6 col-sm-6 mt-4 px-1">
+      <label >.</label>
+       <button class="btn btn-default text-white btn-block bg-gold">Check Status</button>
+     </div>
+
   </div>
 </div>
 
@@ -77,6 +103,44 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+</script>
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    // This button will increment the value
+    $('.qtyplus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If is not undefined
+        if (!isNaN(currentVal)) {
+            // Increment
+            $('input[name='+fieldName+']').val(currentVal + 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+    // This button will decrement the value till 0
+    $(".qtyminus").click(function(e) {
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If it isn't undefined or its greater than 0
+        if (!isNaN(currentVal) && currentVal > 0) {
+            // Decrement one
+            $('input[name='+fieldName+']').val(currentVal - 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+});
 </script>
 </body>
 </html>
