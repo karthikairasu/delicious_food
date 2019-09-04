@@ -112,3 +112,6 @@ input.qtyminus { width:25px; height:25px;}
     border: 0px;
     position: relative;
 }
+.bg-light2 {
+    background-color: #e4e4e4!important;
+}
