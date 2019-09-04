@@ -1,6 +1,11 @@
     
-a:active {
+a{
   text-decoration:none;
+  color:black;
+}
+a:hover{
+  text-decoration: none;
+  color:black;
 }
 body{
   font-family: 'Ubuntu', sans-serif;
@@ -80,8 +85,6 @@ body{
 .menu_list{
   height:25vh;
   text-align: center;
-  padding-top: 20px !important;
-  border:1px solid lightgrey;
 }
 .bac_img{
   background-image: url("images/bac2.png");
@@ -99,3 +102,13 @@ body{
 }
 input.qtyplus { width:25px; height:25px;}
 input.qtyminus { width:25px; height:25px;}
+.sd:hover {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+    transform: scale(0.95, 0.95);
+}
+.sd {
+    box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2), 0px 0px 2px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    position: relative;
+}
