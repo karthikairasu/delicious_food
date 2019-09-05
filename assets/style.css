@@ -78,12 +78,12 @@ body{
     font-size: 33px;
 }
 .location{
-    background-color: white;
+    background-color: #f1f1f1;
     height: 36px;
     padding: 0px;
     white-space: nowrap;
     overflow-x: auto;
-    font-size: 17px;
+    font-size: 16px;
 }
 .menu_list{
   height:25vh;
