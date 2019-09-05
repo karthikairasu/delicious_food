@@ -84,6 +84,7 @@ body{
     white-space: nowrap;
     overflow-x: auto;
     font-size: 16px;
+    border-radius: 8px;
 }
 .menu_list{
   height:25vh;
