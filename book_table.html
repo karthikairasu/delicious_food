@@ -50,11 +50,12 @@
   </div>
   <!--------Side nav close--------->
   <nav class="navbar fixed-top navbar-light bg-gold">
-      <div class="col-3"><a class="navbar-brand" href="#" data-toggle="collapse" data-target="#collapsibleNavbar" onclick="openNav()">
-          <i class="fas fa-sliders-h text-light p-1 border border-light"></i></a>
+      <div class="col-3">
+        <a class="navbar-brand" href="#" data-toggle="collapse" data-target="#collapsibleNavbar" onclick="openNav()">
+        <i class="fas fa-sliders-h text-light p-1 border border-light"></i></a>
       </div>
       <div class="col-6">
-      <p class="mb-0 text-center text-white"><span>Book a Table</span></p>
+        <p class="mb-0 text-center text-white"><span>Book a Table</span></p>
       </div>
       <div class="col-3 text-right"><a class="ml-auto" href="#"></a>
       </div>
@@ -63,35 +64,45 @@
 
 
 <div class="container-fluid mt-5">
-  <div class="row">
-     <div class="col-6 col-sm-6 mt-4 px-1">
+  <br>
+  
+  <div class="card col-lg-8 offset-lg-2 mt-4 border-info p-0">
+    <div class="card-header border-info text-center"><h5>Booking Details</h5></div>
+    <div class="card-body">
+    <div class="form-row">
+     <div class="form-group col-6 col-sm-6">
+       <label for="date"><b>Date:</b></label>
        <input type="text" class="form-control" placeholder="Select Date">
      </div>
-     <div class="col-6 col-sm-6 mt-4 px-1">
+     <div class="form-group col-6 col-sm-6">
+       <label for="date"><b>Time:</b></label>
        <input type="text" class="form-control" placeholder="Select Time">
      </div>
-  
-  <div class="col-12 col-sm-12 mt-4 px-3">
+  </div>
+  <div class="form-group">
+      <label for="date"><b> lounge:</b></label>
        <select class="form-control" >
          <option value="">Choose lounge</option>
          <option value="lounge1">Lounge 1</option>
          <option value="lounge2">Lounge 2</option>
        </select>
      </div>
-     <div class="col-6 col-sm-6 mt-4 px-1">
-       <label><b>Select People</b></label>
+     <div class="form-row">
+     <div class="form-group col-6 col-sm-6">
+       <label><b>Select People:</b></label>
        <form id='myform' method='POST' action='#'>
           <input type='button' value='-' class='qtyminus' field='quantity' />
           <input type='text' name='quantity' value='0' class='qty' />
           <input type='button' value='+' class='qtyplus' field='quantity' />
       </form>
      </div>
-     <div class="col-6 col-sm-6 mt-4 px-1">
-      <label >.</label>
-       <button class="btn btn-default text-white btn-block bg-gold">Check Status</button>
+     <div class="form-group col-6 col-sm-6 mt-4 pt-2">
+       <button class="btn btn-default text-white btn-block bg-gold px-0">Check Status</button>
      </div>
-
+    </div>
   </div>
+</div>
+
 </div>
 
 

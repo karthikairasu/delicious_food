@@ -92,21 +92,32 @@ body{
   text-align: center;
 }
 .bac_img{
-  background-image: url("images/bac2.png");
+  background-image: url("images/bg.gif");
 }
 #myform {
     text-align: center;
     padding: 5px;
-    border: 1px dotted #ccc;
-    margin: 2%;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
 }
 .qty {
     width: 40px;
     height: 25px;
     text-align: center;
+    line-height: normal;
 }
-input.qtyplus { width:25px; height:25px;}
-input.qtyminus { width:25px; height:25px;}
+input.qtyplus 
+{ 
+  width:25px; 
+  height:25px;
+  line-height: normal;
+}
+input.qtyminus 
+{ 
+  width:25px; 
+  height:25px;
+  line-height: normal;
+}
 .sd:hover {
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
     transition: box-shadow 0.3s ease-in-out;
