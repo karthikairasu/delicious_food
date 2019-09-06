@@ -27,7 +27,7 @@
       <!-------- Account Menus open--------->
       <ul class="nav nav-tabs flex-column text-dark side-mu">
           <li class="nav-item">
-             <a class="nav-link py-3" href="#"><img src="assets/images/ic_home.png" style="width:30px;height:30px">&nbsp;&nbsp; Home</a>
+             <a class="nav-link py-3" href="index.html"><img src="assets/images/ic_home.png" style="width:30px;height:30px">&nbsp;&nbsp; Home</a>
           </li>
           <li class="nav-item">
              <a class="nav-link py-3" href="#"><img src="assets/images/ic_profile.png" style="width:30px;height:30px">&nbsp;&nbsp; My Account</a>
@@ -62,12 +62,61 @@
 <!-------------main nav close----------------->
 
 
-<div class="container-fluid mt-5">
-  <div class="row">
-     <div class="col-12 col-sm-12">
-       
-     </div>
-  </div>
+<div class="container mt-5">
+  <br>
+     <div class="card col-lg-8 offset-lg-2 p-0 mt-3">
+      <div class="card-header">
+        <!-- Nav pills -->
+        <ul class="nav nav-pills">
+          <li class="nav-item col-6 p-0 text-center pr-1">
+            <a class="nav-link active nav_link" data-toggle="pill" href="#signup">Signup</a>
+          </li>
+          <li class="nav-item col-6 p-0 text-center pl-1">
+            <a class="nav-link nav_link" data-toggle="pill" href="#login">Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <div class="tab-content">
+          <div class="tab-pane container active" id="signup">
+            <div class="form-group">
+                 <label for="name"><b>Name:</b></label>
+                 <input type="text" class="form-control" placeholder="">
+               </div>
+               <div class="form-group">
+                 <label for="email"><b>Email:</b></label>
+                 <input type="email"  class="form-control" placeholder="">
+               </div>
+               <div class="form-group">
+                 <label for="phone"><b>Phone:</b></label>
+                 <input type="number" class="form-control" placeholder="">
+               </div>
+               <div class="form-group">
+                 <label for="pass"><b>Password:</b></label>
+                 <input type="password" class="form-control" placeholder="">
+               </div>
+               <div class="form-group mb-0 text-center mt-2">
+                <a class="btn btn-default bg-gold btn-block text-white"><b>Signup</b></a>
+               </div>
+          </div>
+          <div class="tab-pane container fade" id="login">
+               <div class="form-group">
+                 <label for="phone"><b>Mobile No:</b></label>
+                 <input type="number" class="form-control" placeholder="">
+               </div>
+               <div class="form-group">
+                 <label for="pass"><b>Password:</b></label>
+                 <input type="password" class="form-control" placeholder="">
+               </div>
+               <div class="form-group mb-0 text-center mt-2">
+                <a class="btn btn-default bg-gold btn-block text-white"><b>Login</b></a>
+               </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+ 
 </div>
 
 

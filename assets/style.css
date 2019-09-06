@@ -165,3 +165,16 @@ input.qtyminus
 .bg-head{
   background-color: #69A199;
 }
+/* signup page */
+.nav-pills .nav_link.active, .nav-pills .show>.nav_link {
+    color: #fff;
+    background-color: #4285F4;
+    border: 1px solid #4285F4;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+.nav-pills .nav_link {
+    border-radius: .25rem;
+    border: 1px solid #00C851;
+    background-color: #00C851;
+    color: black;
+}
