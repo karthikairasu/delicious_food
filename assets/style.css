@@ -128,6 +128,9 @@ input.qtyminus
     border: 0px;
     position: relative;
 }
+.my-sd {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+}
 .bg-light2 {
     background-color: #e4e4e4!important;
 }
@@ -180,4 +183,8 @@ input.qtyminus
     border: 1px solid #00C851;
     background-color: #00C851;
     color: black;
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #dee2e6;
 }
