@@ -14,6 +14,8 @@
   <script src="https://kit.fontawesome.com/80895110d5.js"></script>
 
   <link href="assets/style.css" rel="stylesheet">
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="bac_img">
   <!-----------side nav start--------->  
@@ -55,7 +57,7 @@
         <i class="fas fa-sliders-h text-light p-1 border border-light"></i></a>
       </div>
       <div class="col-6">
-        <p class="mb-0 text-center text-white"><span>Book a Table</span></p>
+        <p class="mb-0 text-center text-white"><span>Table Reservation</span></p>
       </div>
       <div class="col-3 text-right"><a class="ml-auto" href="#"></a>
       </div>
@@ -63,20 +65,20 @@
 <!-------------main nav close----------------->
 
 
-<div class="container-fluid mt-5">
+<div class="container mt-5">
   <br>
   
   <div class="card col-lg-8 offset-lg-2 mt-4 border-info p-0">
-    <div class="card-header border-info text-center"><h5>Booking Details</h5></div>
+    <div class="card-header border-info text-white text-center bg-head"><h5 class="mb-0">Booking Details</h5></div>
     <div class="card-body">
     <div class="form-row">
      <div class="form-group col-6 col-sm-6">
        <label for="date"><b>Date:</b></label>
-       <input type="text" class="form-control" placeholder="Select Date">
+       <input type="text" id="datepicker" class="form-control" placeholder="Select Date">
      </div>
      <div class="form-group col-6 col-sm-6">
        <label for="date"><b>Time:</b></label>
-       <input type="text" class="form-control" placeholder="Select Time">
+       <input type="text" id="timepicker" class="form-control" placeholder="Select Time">
      </div>
   </div>
   <div class="form-group">
@@ -153,5 +155,13 @@ function closeNav() {
     });
 });
 </script>
+  <script>
+      $('#datepicker').datepicker({
+          uiLibrary: 'bootstrap4'
+      });
+  </script>
+ <script>
+    $('#timepicker').timepicker({ uiLibrary: 'bootstrap4' });
+ </script>
 </body>
 </html>

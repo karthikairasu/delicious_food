@@ -162,3 +162,6 @@ input.qtyminus
 .location::-webkit-scrollbar-thumb:hover {
   background: lightgrey; 
 }
+.bg-head{
+  background-color: #69A199;
+}
