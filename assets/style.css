@@ -172,6 +172,9 @@ input.qtyminus
     border: 1px solid #4285F4;
     box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
 }
+.nav-pills .nav_link:hover{
+ box-shadow: 0px 0px 5px 2px rgba(0,0,0,.18), 0px 0px 15px 3px rgba(0,0,0,.15);
+}
 .nav-pills .nav_link {
     border-radius: .25rem;
     border: 1px solid #00C851;
