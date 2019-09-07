@@ -92,7 +92,13 @@ body{
   text-align: center;
 }
 .bac_img{
-  background-image: url("images/bg.gif");
+  background-image: url("images/bg/bg.gif");
+}
+.bac_img2{
+  background-image: url("images/bg/bg2.jpg");
+}
+.bac_img3{
+  background-image: url("images/bg/bg4.png");
 }
 #myform {
     text-align: center;
