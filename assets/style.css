@@ -137,6 +137,9 @@ input.qtyminus
 .my-sd {
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
 }
+.my-sd2 {
+    box-shadow: 0 0px 9px 4px rgba(0, 0, 0, 0.2), 0 0px 9px 4px rgba(0, 0, 0, 0.19);
+}
 .bg-light2 {
     background-color: #e4e4e4!important;
 }
