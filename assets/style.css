@@ -197,3 +197,7 @@ input.qtyminus
     color: #6c757d;
     border-color: #dee2e6;
 }
+/*-----blue theme------*/
+.bg-blue{
+  background-color: #006FB9;
+}
