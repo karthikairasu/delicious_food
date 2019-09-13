@@ -36,7 +36,7 @@
              <a class="nav-link py-3" href="book_table.html"><img src="assets/images/table.png" style="width:30px;height:25px">&nbsp;&nbsp; Book a Table</a>
           </li>
           <li class="nav-item">
-             <a class="nav-link py-3" href="#"><img src="assets/images/ic_mybooking.png" style="width:30px;height:30px">&nbsp;&nbsp; My Booking</a>
+             <a class="nav-link py-3" href="my-booking.html"><img src="assets/images/ic_mybooking.png" style="width:30px;height:30px">&nbsp;&nbsp; My Booking</a>
           </li>
           <li class="nav-item">
              <a class="nav-link py-3" href="#"><img src="assets/images/ic_contactus.png" style="width:30px;height:30px">&nbsp;&nbsp; Contact Us</a>
@@ -54,7 +54,7 @@
           <i class="fas fa-sliders-h text-light p-1 border border-light"></i></a>
       </div>
       <div class="col-6">
-      <p class="mb-0 text-center text-white"><span><b>Signup</b></span></p>
+      <p class="mb-0 text-center text-white"><span><b>My Booking</b></span></p>
       </div>
       <div class="col-3 text-right">
         <a class="ml-auto text-white" href="book_table.html"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
@@ -65,60 +65,57 @@
 
 <div class="container mt-5">
   <br>
-     <div class="card col-lg-6 offset-lg-3 p-0 mt-3 my-sd">
-      <div class="card-header">
-        <!-- Nav pills -->
-        <ul class="nav nav-pills">
-          <li class="nav-item col-6 p-0 text-center pr-1">
-            <a class="nav-link nav_link" data-toggle="pill" href="#signup"><b>Signup</b></a>
-          </li>
-          <li class="nav-item col-6 p-0 text-center pl-1">
-            <a class="nav-link active nav_link" data-toggle="pill" href="#login"><b>Login</b></a>
-          </li>
-        </ul>
+    <div class="card col-lg-8 offset-lg-2 p-0 mt-3 rounded-0 my-sd">
+      <div class="card-body py-2">
+        <div class="row">
+          <div class="col-6 d-flex align-items-center"><h5 class="mb-0 text-blue"><b>Lounge 1</b></h5></div>
+          <div class="col-6"><p class="text-right mb-0"><small><b>02/09/2019<br>12:45</b></small></p></div>
+        </div>
+        <hr class="w-100 my-1 my-sd">
+        <table class="table table-borderless table-sm">
+          <tbody>
+            <tr>
+              <td><b>Name :</b><span class="text-secondary"> kumar</span></td>
+            </tr>
+            <tr>
+              <td><b>Phone :</b><span class="text-secondary"> 1234567890</span> </td>
+            </tr>
+            <tr>
+              <td><b>Person's :</b><span class="text-secondary"> 4 </span></td>
+            </tr>
+          </tbody>
+        </table>
+       <div class="form-group mb-0 text-justify mt-2">
+          <button class="btn btn-default bg-success text-white" disabled/><b>Completed</b></button>
+          <button class="btn btn-default bg-blue text-white"><i class="fas fa-redo"></i><b> Book Again</b></button>
+        </div>
       </div>
-      <div class="card-body">
-        <div class="tab-content">
-          <div class="tab-pane container fade" id="signup">
-            <form action="confirmation.html" method="post">
-            <div class="form-group">
-                 <label for="name"><b>Name:</b></label>
-                 <input type="text" class="form-control" placeholder="" required>
-               </div>
-               <div class="form-group">
-                 <label for="email"><b>Email:</b></label>
-                 <input type="email"  class="form-control" placeholder="" required>
-               </div>
-               <div class="form-group">
-                 <label for="phone"><b>Phone:</b></label>
-                 <input type="number" class="form-control" placeholder="" required>
-               </div>
-               <div class="form-group">
-                 <label for="pass"><b>Password:</b></label>
-                 <input type="password" class="form-control" placeholder="" required>
-               </div>
-               <div class="form-group mb-0 text-center mt-2">
-                <button class="btn btn-default bg-gold btn-block text-white" onclick="window.location.href='confirmation.html'"><b>Signup</b></button>
-               </div>
-               <h6 class="text-center mt-3"><a href="login.html">Already have an account? Login</a></h6>
-             </form>
-          </div>
-          <div class="tab-pane container active" id="login">
-            <form action="confirmation.html" method="post">
-               <div class="form-group">
-                 <label for="phone"><b>Mobile No:</b></label>
-                 <input type="number" class="form-control" placeholder="" required>
-               </div>
-               <div class="form-group">
-                 <label for="pass"><b>Password:</b></label>
-                 <input type="password" class="form-control" placeholder="" required>
-               </div>
-               <div class="form-group mb-0 text-center mt-2">
-                <button class="btn btn-default bg-gold btn-block text-white" onclick="window.location.href='confirmation.html'"><b>Login</b></button>
-               </div>
-               <h6 class="text-center mt-3"><a href="signup.html">Don't have an account? SignUp</a></h6>
-             </form>
-          </div>
+    </div>
+    <div class="card col-lg-8 offset-lg-2 p-0 mt-3 rounded-0 my-sd">
+      <div class="card-body py-2">
+        <div class="row">
+          <div class="col-6 d-flex align-items-center"><h5 class="mb-0 text-blue"><b>Lounge 2</b></h5></div>
+          <div class="col-6"><p class="text-right mb-0"><small><b>25/09/2019<br>07:45</b></small></p></div>
+        </div>
+        <hr class="w-100 my-1 my-sd">
+        <table class="table table-borderless table-sm">
+          <tbody>
+            <tr>
+              <td><b>Name :</b><span class="text-secondary"> kumar</span></td>
+            </tr>
+            <tr>
+              <td><b>Phone :</b><span class="text-secondary"> 1234567890</span> </td>
+            </tr>
+            <tr>
+              <td><b>Person's :</b><span class="text-secondary"> 4 </span></td>
+            </tr>
+          </tbody>
+        </table>
+       <div class="form-group mb-0 text-justify mt-2">
+          <button class="btn btn-default bg-info text-white">
+            <span class="spinner-grow spinner-grow-sm"></span> <b>Upcoming</b>
+          </button>
+          <button class="btn btn-default bg-blue text-white"><i class="fas fa-redo"></i><b> Book Again</b></button>
         </div>
       </div>
     </div>
