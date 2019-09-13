@@ -91,6 +91,12 @@ body{
   height:25vh;
   text-align: center;
 }
+@media screen and (max-height: 768px) {
+  .menu_list{
+  height:23vh;
+  text-align: center;
+}
+}
 .bac_img{
   background-image: url("images/bg/bg.gif");
 }
