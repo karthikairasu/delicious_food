@@ -219,6 +219,18 @@ input.qtyminus
 .bg-lightgrey{
   background-color:#d6d6d6;
 }
+.stl-ct{
+  font-family: 'Crimson Text', serif;
+}
+.stl-sso{
+  font-family: 'Saira Stencil One', cursive;
+}
+.stl-ply{
+  font-family: 'Play', sans-serif;
+}
+.stl-cga{
+  font-family: 'Changa', sans-serif;
+}
 /*-----my account page---*/
 .my_act li{
   background-color:#d6d6d6; 
