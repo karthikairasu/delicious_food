@@ -118,26 +118,32 @@ body{
 #myform {
     text-align: center;
     padding: 5px;
-    border: 1px solid #ccc;
+   /* border: 1px solid #ccc;*/
     border-radius: .25rem;
 }
 .qty {
-    width: 40px;
-    height: 25px;
+    width: 30%;
+    height: 30px;
     text-align: center;
     line-height: normal;
+    border: 1px solid #777;
+    font-size: 20px;
 }
 input.qtyplus 
 { 
-  width:25px; 
-  height:25px;
+  width:25%; 
+  height:30px;
   line-height: normal;
+  border: 1px solid #777;
+  font-size: 20px;
 }
 input.qtyminus 
 { 
-  width:25px; 
-  height:25px;
+  width:25%; 
+  height:30px;
   line-height: normal;
+  border: 1px solid #777;
+  font-size: 20px;
 }
 .sd:hover {
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
