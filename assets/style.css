@@ -231,6 +231,12 @@ input.qtyminus
 .stl-cga{
   font-family: 'Changa', sans-serif;
 }
+.stl-tw{
+  font-family: 'Titillium+Web', sans-serif;
+}
+.stl-lt{
+  font-family: 'Lobster', cursive;
+}
 /*-----my account page---*/
 .my_act li{
   background-color:#d6d6d6; 
