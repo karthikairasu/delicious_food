@@ -101,8 +101,9 @@ body{
 }
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
   .menu_list{
-  height:12vh;
+  height:9vh;
   text-align: center;
+  font-size: 13px;
 }
 }
 .bac_img{
