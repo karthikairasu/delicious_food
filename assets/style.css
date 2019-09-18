@@ -87,13 +87,13 @@ body{
     border-radius: 8px;
     scrollbar-width: none;
 }
-@media screen and (min-height: 1200px){
+@media screen and (min-width: 1200px){
 .menu_list{
   height:25vh;
   text-align: center;
 }
 }
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 768px) {
   .menu_list{
   height:23vh;
   text-align: center;
@@ -101,9 +101,9 @@ body{
 }
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
   .menu_list{
-  height:9vh;
+  height:14vh;
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
 }
 }
 .bac_img{
