@@ -87,13 +87,21 @@ body{
     border-radius: 8px;
     scrollbar-width: none;
 }
+@media screen and (min-height: 1200px){
 .menu_list{
   height:25vh;
   text-align: center;
 }
+}
 @media screen and (max-height: 768px) {
   .menu_list{
   height:23vh;
+  text-align: center;
+}
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .menu_list{
+  height:12vh;
   text-align: center;
 }
 }
