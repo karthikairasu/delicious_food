@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Delicious Food</title>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#B28707">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 shrink-to-fit=no, user-scalable=0">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="194x194">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Play|Titillium+Web|Lobster|Changa|Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/80895110d5.js"></script>
+
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+<body class="bac_img">
+  <!-----------side nav start--------->  
+<div id="mySidenav" class="sidenav f-ubundu">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!--------profile open--------->
+      <div class="text-center text-light">
+          <h6 class="text-13 pt-1"><img src="assets/images/logo.png" style="width:200px;height:66px"></h6>
+          <h6 class="text-13 pt-3"></h6>
+      </div><!--------profile close--------->
+      <!-------- Account Menus open--------->
+      <ul class="nav nav-tabs flex-column text-dark side-mu">
+          <li class="nav-item">
+             <a class="nav-link py-3" href="home.html"><img src="assets/images/ic_home.png" style="width:30px;height:30px">&nbsp;&nbsp; Home</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link py-3" href="my-account.html"><img src="assets/images/ic_profile.png" style="width:30px;height:30px">&nbsp;&nbsp; My Account</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link py-3" href="book_table.html"><img src="assets/images/table.png" style="width:30px;height:30px">&nbsp;&nbsp; Book a Table</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link py-3" href="my-booking.html"><img src="assets/images/ic_mybooking.png" style="width:30px;height:30px">&nbsp;&nbsp; My Booking</a>
+          </li>
+          <!-- <li class="nav-item">
+             <a class="nav-link py-3" href="contact.html"><img src="assets/images/ic_contactus.png" style="width:30px;height:30px">&nbsp;&nbsp; Contact Us</a>
+          </li> -->
+          <li class="nav-item">
+          <a class="nav-link py-3" href="#"><img src="assets/images/logout.png" style="width:25px;height:25px">&nbsp;&nbsp; Logout</a>
+          </li>
+      </ul>
+      <!--------Account Menus close--------->
+      <footer class="text-white side-ft"></footer>
+  </div>
+  <!--------Side nav close--------->
+  <nav class="navbar fixed-top navbar-light bg-gold">
+      <div class="col-3"><a class="navbar-brand" href="#" data-toggle="collapse" data-target="#collapsibleNavbar" onclick="openNav()">
+          <i class="fas fa-sliders-h text-light p-1 border border-light"></i></a>
+      </div>
+      <div class="col-6">
+      <p class="mb-0 text-center text-white"><span><b>Review</b></span></p>
+      </div>
+      <div class="col-3 text-right">
+        <a class="ml-auto text-white" href="book_table.html"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
+      </div>
+  </nav>
+<!-------------main nav close----------------->
+
+
+<div class="container mt-5 stl-cga">
+  <br>
+     <div class="card col-lg-6 offset-lg-3 px-4 py-3 mt-3 my-sd">
+      <form action="" method="post">
+       <h4 class="text-center stl-ply text-info"><b>WRITE YOUR REVIEW</b></h4>
+       <div class="form-row">
+       <div class="form-group mb-1">
+         <p class="mt-2 mb-1">Your overall rating of this restaurant:</p>
+         <fieldset class="rating">
+          <input type="radio" id="star5" name="rating" value="5" />
+          <label class = "full" for="star5" title="Awesome - 5 stars"></label>
+          <input type="radio" id="star4half" name="rating" value="4 and a half" />
+          <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+          <input type="radio" id="star4" name="rating" value="4" />
+          <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+          <input type="radio" id="star3half" name="rating" value="3 and a half" />
+          <label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+          <input type="radio" id="star3" name="rating" value="3" />
+          <label class = "full" for="star3" title="Meh - 3 stars"></label>
+          <input type="radio" id="star2half" name="rating" value="2 and a half" />
+          <label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+          <input type="radio" id="star2" name="rating" value="2" />
+          <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+          <input type="radio" id="star1half" name="rating" value="1 and a half" />
+          <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+          <input type="radio" id="star1" name="rating" value="1" />
+          <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+          <input type="radio" id="starhalf" name="rating" value="half" />
+          <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+        </fieldset>
+       </div>
+     </div>
+       <div class="form-group">
+          <p class="mb-1">Your review:</p>
+          <textarea class="form-control rounded-0" type="text" name="review" style="height:100px" required></textarea>
+       </div>
+       <div class="form-group">
+          <button class="btn btn-warning btn-lg">Submit</button>
+       </div>
+       </form>
+    </div>
+    <br>
+ 
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
