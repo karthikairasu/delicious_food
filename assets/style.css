@@ -258,7 +258,7 @@ input.qtyminus
   border-right: 2px solid white;
 }
 .myord_tbl td{
-  border:none;
+  /*border:none;*/
   padding: 8px 2px;
 }
 /*----------review page-------*/
