@@ -95,7 +95,7 @@ body{
 }
 @media screen and (max-width: 768px) {
   .menu_list{
-  height:23vh;
+  height:22vh;
   text-align: center;
 }
 }
